@@ -1,0 +1,43 @@
+.trusted-wrapper {
+  width: 100%;
+  background: #2563eb;
+  padding: 80px 20px;
+  position: relative;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.trusted-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.trusted-content h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.company-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.company-row span {
+  font-size: 28px;
+  font-weight: 700;
+  opacity: 0.95;
+  color: #d6e4ff; 
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .company-row span {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,24 @@
+.showcase-wrapper {
+  width: 100%;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.showcase-box {
+  width: 90%;
+  max-width: 1200px;
+  background: #2563eb; /* Taplio blue */
+  border-radius: 28px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+}
