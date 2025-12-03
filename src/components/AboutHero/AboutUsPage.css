@@ -1,0 +1,484 @@
+/* Global Container */
+.about-container {
+  width: 100%;
+  font-family: "Inter", "Poppins", sans-serif;
+  color: #0b1225;
+  background-color: #fff;
+}
+
+/* Feature Tag (Badge) */
+.feature-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #e8f0ff;
+  color: #2a57ff;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Feature Section Layout */
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 8%;
+  gap: 60px;
+}
+
+.feature-left {
+  flex: 1;
+}
+
+.feature-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-card {
+  background: white;
+  padding: 20px;
+  border-radius: 22px;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.05);
+  width: 90%;
+  max-width: 450px;
+}
+
+.feature-card img {
+  width: 100%;
+  border-radius: 16px;
+  display: block;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Feature Title */
+.feature-title {
+  font-size: 40px;
+  margin-top: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0b1225;
+}
+
+.feature-title span {
+  color: #2a57ff;
+  background: rgba(42, 87, 255, 0.08);
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+/* Feature Description */
+.feature-desc {
+  margin-top: 20px;
+  color: #4a5772;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+/* Feature Link */
+.feature-link {
+  display: inline-block;
+  margin-top: 25px;
+  color: #0b1225;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.feature-link:hover {
+  color: #2a57ff;
+}
+
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+}
+
+.hero-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+  font-weight: 700;
+  color: #0b1225;
+  line-height: 1.3;
+  margin: 20px auto 50px;
+  max-width: 900px;
+}
+
+.hero-title span {
+  color: #2a57ff;
+  background: rgba(42, 87, 255, 0.08);
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+.image-container {
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Stats Container */
+.stats-container {
+  background: linear-gradient(135deg, #f5e6d3 0%, #e8d4be 100%);
+  border-radius: 25px;
+  padding: 50px 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 700;
+  color: #2a57ff;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4a5772;
+  text-transform: capitalize;
+}
+
+/* Why Choose Us Section */
+.why-choose-section {
+  background-color: #f9fafb;
+  padding: 80px 8%;
+}
+
+.why-choose-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why-choose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.why-choose-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-choose-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.check-icon {
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, #2a57ff 0%, #5b5fea 100%);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.why-choose-item p {
+  font-size: 16px;
+  color: #4a5772;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Vision Mission Boxes */
+.vision-mission-box {
+  margin-top: 30px;
+  padding: 25px;
+  background: #f9fafb;
+  border-radius: 16px;
+  border-left: 4px solid #2a57ff;
+}
+
+.vm-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a57ff;
+  margin-bottom: 12px;
+}
+
+/* Mission Section (Core Values) */
+.mission-section {
+  background-color: #f9fafb;
+  padding: 100px 8%;
+  text-align: center;
+}
+
+.mission-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Values Grid */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.value-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 22px;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.value-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.value-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.value-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0b1225;
+  margin-bottom: 15px;
+}
+
+.value-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #4a5772;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  background-color: #fff;
+  padding: 100px 8%;
+}
+
+.testimonials-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 22px;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0b1225;
+  margin-bottom: 20px;
+}
+
+.testimonial-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4a5772;
+  margin-bottom: 25px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.testimonial-author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-info {
+  text-align: left;
+}
+
+.author-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0b1225;
+  margin-bottom: 3px;
+}
+
+.author-role {
+  font-size: 13px;
+  color: #4a5772;
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: #f9fafb;
+  padding: 100px 8%;
+}
+
+.faq-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.faq-list {
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 22px;
+  padding: 40px;
+}
+
+.faq-item {
+  background: #f9fafb;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.faq-question {
+  padding: 25px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0b1225;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+  background: #e8f0ff;
+}
+
+.faq-answer {
+  padding: 0 30px 25px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4a5772;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 20px;
+  background: #fff;
+}
+
+.faq-icon {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a57ff;
+  transition: transform 0.3s ease;
+}
+
+.faq-icon.open {
+  transform: rotate(180deg);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .feature-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 5%;
+  }
+
+  .reverse {
+    flex-direction: column;
+  }
+
+  .feature-right {
+    width: 100%;
+  }
+
+  .feature-card {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .feature-title {
+    font-size: 32px;
+  }
+
+  .why-choose-section,
+  .mission-section,
+  .testimonials-section,
+  .faq-section {
+    padding: 60px 5%;
+  }
+
+  .why-choose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .values-grid,
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
