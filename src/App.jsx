@@ -35,14 +35,14 @@ import Navbar from './components/Navbar/Navbar';
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./components/Footer/Footer";
-import CosmicBackground from "./components/CosmicBackground";
+
 
 
 function App() {
   return (
     <Router>
       <Navbar/>
-      <CosmicBackground />
+      
 
       <Routes>
         <Route path="/" element={<Home/>} />
