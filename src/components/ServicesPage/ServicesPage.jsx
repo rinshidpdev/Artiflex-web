@@ -226,12 +226,12 @@ const ServicesPage = () => {
                   </div>
                 )}
 
-                <a href="#contact" className="service-btn">
+                {/* <a href="#contact" className="service-btn">
                   Learn More
                   <svg className="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path d="M4 10H16M16 10L12 6M16 10L12 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                </a>
+                </a> */}
               </div>
 
               <div className="service-image-wrapper">
@@ -300,8 +300,8 @@ const ServicesPage = () => {
             Let our experts help you build a secure, scalable, and efficient IT environment. Contact us today for a free consultation.
           </p>
           <div className="cta-buttons">
-            <a href="#contact" className="cta-btn-primary">Get Started Now</a>
-            <a href="#contact" className="cta-btn-secondary">Schedule Consultation</a>
+            <a href="/services" className="cta-btn-primary">Get Started Now</a>
+            <a href="/contact" className="cta-btn-secondary">Schedule Consultation</a>
           </div>
         </div>
       </section>

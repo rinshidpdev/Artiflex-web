@@ -182,3 +182,40 @@
   }
 }
 
+/* Footer Top → Only 3 columns now */
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: 1fr;   /* stack all */
+    text-align: center;
+  }
+
+  .footer-column {
+    align-items: center;
+  }
+
+  .footer-links li a {
+    text-align: center;
+  }
+
+  .footer-brand {
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}

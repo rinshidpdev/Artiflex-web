@@ -26,10 +26,9 @@ We design, manage, and protect your IT environment with precision helping you op
             src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png"
             alt="automation"
           />
-          <h3>Smart Automation</h3>
+          <h3>Smart System Optimization</h3>
           <p>
-            Save hours every day with fully automated workflows that reduce
-            manual effort and improve accuracy.
+            Enhance stability and performance with proactive monitoring, updates, and issue prevention.
           </p>
         </div>
 
@@ -38,10 +37,9 @@ We design, manage, and protect your IT environment with precision helping you op
             src="https://cdn-icons-png.flaticon.com/512/9910/9910151.png"
             alt="dashboard"
           />
-          <h3>Unified Dashboard</h3>
+          <h3>Unified IT Overview</h3>
           <p>
-            Track activities, performance, insights and customer interactions all in
-            one beautifully designed dashboard.
+            Stay informed with clear visibility of your network, devices, security, and performance—all in one place.
           </p>
         </div>
 
@@ -50,10 +48,9 @@ We design, manage, and protect your IT environment with precision helping you op
             src="https://cdn-icons-png.flaticon.com/512/8985/8985533.png"
             alt="team"
           />
-          <h3>Team Collaboration</h3>
+          <h3>Seamless Team Support</h3>
           <p>
-            Real-time communication and shared workspaces keep your team aligned
-            and running smoothly.
+            Fast response, real-time assistance, and reliable IT management that keeps your team productive
           </p>
         </div>
 

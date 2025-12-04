@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-containerr">
-        <h1 className="hero-title">                    The all-in-one   into uptime
+        <h1 className="hero-title">                   
           The all-in-one IT solution
           <br />
           to turn infrastructure

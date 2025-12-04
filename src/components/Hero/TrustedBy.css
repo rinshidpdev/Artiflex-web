@@ -26,13 +26,29 @@
   flex-wrap: wrap;
   gap: 40px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .company-row span {
   font-size: 28px;
   font-weight: 700;
   opacity: 0.95;
-  color: #d6e4ff; 
+  color: #d6e4ff;
+
+  /* Hover animation setup */
+  transition: 
+    transform 0.3s ease,
+    color 0.3s ease,
+    text-shadow 0.3s ease,
+    opacity 0.3s ease;
+}
+
+
+.company-row span:hover {
+  transform: scale(1.12);
+  opacity: 1;
+  color: #ffffff;
+  text-shadow: 0 4px 12px rgba(255, 255, 255, 0.6);
 }
 
 /* mobile */

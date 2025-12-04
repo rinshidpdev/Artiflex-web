@@ -35,12 +35,14 @@ import Navbar from './components/Navbar/Navbar';
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./components/Footer/Footer";
+import WhatsAppWidget from "./components/WhatsAppWidget";
 
 
 
 function App() {
   return (
     <Router>
+      <WhatsAppWidget/>
       <Navbar/>
       
 

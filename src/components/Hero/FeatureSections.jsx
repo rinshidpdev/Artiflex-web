@@ -1,33 +1,33 @@
-import autoImg from "../../assets/image2.png";
-import collabImg from "../../assets/image2.png";
-import insightImg from "../../assets/image2.png";
+import infraImg from "../../assets/image2.png";
+import cyberImg from "../../assets/image2.png";
+import cloudImg from "../../assets/image2.png";
 import "./FeatureSections.css";
 
 export default function FeatureSections() {
   const sections = [
     {
-      tag: "WORKFLOW AUTOMATION",
-      title: "Automate your entire workflow",
-      highlight: "with precision",
-      desc: "Artiflex helps you eliminate repetitive tasks with intelligent automation. From scheduling to client updates, everything flows seamlessly so your team stays focused on real work.",
-      link: "Explore Automation →",
-      img: autoImg,
+      tag: "IT INFRASTRUCTURE MANAGEMENT",
+      title: "Build a reliable IT foundation",
+      highlight: "for smooth operations",
+      desc: "Artiflex IT designs and manages secure, high-performance infrastructure tailored to your business. From system setup to ongoing maintenance, we ensure everything runs efficiently so your team can stay focused on what matters.",
+      link: "Explore Infrastructure →",
+      img: infraImg,
     },
     {
-      tag: "REAL-TIME COLLABORATION",
-      title: "Collaborate in real time",
-      highlight: "from anywhere",
-      desc: "Share ideas, track progress and communicate instantly. Artiflex brings your entire team together with live updates and synchronized activities—perfect for remote workflows.",
-      link: "See Collaboration →",
-      img: collabImg,
+      tag: "CYBERSECURITY & PROTECTION",
+      title: "Keep your business secure",
+      highlight: "from modern threats",
+      desc: "Safeguard your data, devices, and network with advanced endpoint protection, firewalls, and security monitoring. Artiflex IT keeps you protected with proactive defense and real-time threat response.",
+      link: "Learn About Security →",
+      img: cyberImg,
     },
     {
-      tag: "ANALYTICS & INSIGHTS",
-      title: "Make smarter decisions",
-      highlight: "with live analytics",
-      desc: "Understand team performance, project bottlenecks and customer engagement using real-time dashboards. Artiflex gives you insights that actually help you grow.",
-      link: "View Insights →",
-      img: insightImg,
+      tag: "CLOUD & MODERN WORKPLACE",
+      title: "Work smarter",
+      highlight: "with cloud collaboration tools",
+      desc: "Boost productivity with Microsoft 365, Teams, OneDrive, secure email, and cloud backup solutions. Artiflex IT enables seamless communication and real-time collaboration—perfect for hybrid and remote teams.",
+      link: "Explore Cloud Solutions →",
+      img: cloudImg,
     },
   ];
 
