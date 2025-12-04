@@ -35,6 +35,7 @@ const Navbar = () => {
         <ul className={open ? "nav-links open" : "nav-links"}>
           <li><a href="/" onClick={() => setOpen(false)}>Home</a></li>
           <li><a href="/about" onClick={() => setOpen(false)}>About</a></li>
+          <li><a href="/services" onClick={() => setOpen(false)}>Services</a></li>
           <li><a href="#contact" onClick={() => setOpen(false)}>Contact Us</a></li>
 
           {/* Mobile Contact Button inside menu */}

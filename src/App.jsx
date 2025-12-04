@@ -32,6 +32,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Navbar from './components/Navbar/Navbar';
+import Services from "./pages/Services";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<AboutUs/>} />
+        <Route path="/services" element={<Services/>} />
       
       </Routes>
 

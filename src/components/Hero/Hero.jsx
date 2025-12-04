@@ -4,7 +4,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <section className="hero">
-      <div className="hero-container">
+      <div className="hero-containerr">
         <h1 className="hero-title">
           The all-in-one LinkedIn
           <br />
