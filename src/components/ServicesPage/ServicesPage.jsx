@@ -74,50 +74,72 @@ const ServicesPage = () => {
   return (
     <div className="services-container">
       {/* Hero Section */}
-      <section className="services-hero">
-        <div className="hero-container">
-          <div className="hero-left">
-            <span className="hero-badge">Our Services</span>
-            <h1 className="hero-title">
-              Complete <span className="gradient-text">IT Solutions</span> for Modern Business
-            </h1>
-            <p className="hero-description">
-              From cybersecurity to cloud solutions, we deliver end-to-end IT services that empower your organization to thrive securely in the digital era through innovative technology.
-            </p>
-            <div className="hero-buttons">
-              <a href="#services" className="btn-hero-primary">
-                Explore Services
-              </a>
-              <a href="#contact" className="btn-hero-secondary">
-                Get Consultation
-              </a>
-            </div>
-            <div className="hero-stats">
-              <div className="stat-item">
-                <div className="stat-number">4</div>
-                <div className="stat-label">Core Services</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-number">500+</div>
-                <div className="stat-label">Projects Done</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-number">24/7</div>
-                <div className="stat-label">Support</div>
-              </div>
-            </div>
-          </div>
-          <div className="hero-right">
-            <div className="hero-image-wrapper">
-              <img 
-                src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=900&fit=crop" 
-                alt="IT Services" 
-                className="hero-image"
-              />
-            </div>
-          </div>
+     {/* Hero Section */}
+<section className="services-hero">
+  <div className="hero-container">
+    <div className="hero-left">
+      <span className="hero-badge">
+        <span className="badge-icon">✨</span> Our Services
+      </span>
+      <h1 className="hero-title">
+        Complete <span className="gradient-text">IT Solutions</span> for Modern Business
+      </h1>
+      <p className="hero-description">
+        From cybersecurity to cloud solutions, we deliver end-to-end IT services that empower your organization to thrive securely in the digital era through innovative technology.
+      </p>
+      <div className="hero-buttons">
+        <a href="#services" className="btn-hero-primary">
+          Explore Services
+          <span className="btn-arrow">→</span>
+        </a>
+        <a href="#contact" className="btn-hero-secondary">
+          <span className="btn-icon">📞</span>
+          Get Consultation
+        </a>
+      </div>
+      <div className="hero-stats">
+        <div className="stat-item">
+          <div className="stat-number">4+</div>
+          <div className="stat-label">Core Services</div>
         </div>
-      </section>
+        <div className="stat-divider"></div>
+        <div className="stat-item">
+          <div className="stat-number">500+</div>
+          <div className="stat-label">Projects Done</div>
+        </div>
+        <div className="stat-divider"></div>
+        <div className="stat-item">
+          <div className="stat-number">24/7</div>
+          <div className="stat-label">Support</div>
+        </div>
+      </div>
+    </div>
+    <div className="hero-right">
+      <div className="hero-image-wrapper">
+        <div className="floating-card card-1">
+          <div className="card-icon">🛡️</div>
+          <div className="card-text">Cyber Security</div>
+        </div>
+        <div className="floating-card card-2">
+          <div className="card-icon">☁️</div>
+          <div className="card-text">Cloud Solutions</div>
+        </div>
+        <div className="floating-card card-3">
+          <div className="card-icon">⚙️</div>
+          <div className="card-text">Infrastructure</div>
+        </div>
+        <img 
+          src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=900&fit=crop" 
+          alt="IT Services" 
+          className="hero-image"
+        />
+        <div className="hero-image-decoration"></div>
+        <div className="hero-image-decoration-2"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Services Section */}
       <section className="services-section" id="services">

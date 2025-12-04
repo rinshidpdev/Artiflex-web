@@ -33,6 +33,8 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Navbar from './components/Navbar/Navbar';
 import Services from "./pages/Services";
+import ContactUs from "./pages/ContactUs";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -44,10 +46,11 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<AboutUs/>} />
         <Route path="/services" element={<Services/>} />
+        <Route path="/contact" element={<ContactUs/>} />
       
       </Routes>
 
-  
+  <Footer/>
     </Router>
   );
 }
