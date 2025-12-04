@@ -5,18 +5,18 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-containerr">
-        <h1 className="hero-title">
-          The all-in-one LinkedIn
+        <h1 className="hero-title">                    The all-in-one   into uptime
+          The all-in-one IT solution
           <br />
-          platform to turn content
+          to turn infrastructure
           <br />
-          into <span className="highlight">pipeline</span>
+          into <span className="highlight">uptime</span>
         </h1>
 
         <div className="hero-tags">
-          <div className="tag">FIND CLIENTS FASTER</div>
-          <div className="tag"> CREATE CONTENT THAT CONVERTS</div>
-          <div className="tag"> TRACK GROWTH THAT MATTERS</div>
+          <div className="tag">Secure. Scalable. Reliable</div>
+          <div className="tag"> Faster support. Stronger systems</div>
+          <div className="tag"> Connect. Protect. Perform</div>
         </div>
       </div>
     </section>

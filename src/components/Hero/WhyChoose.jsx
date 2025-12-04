@@ -7,11 +7,15 @@ export default function WhyChoose() {
       <div className="why-header">
         <span>WHY CHOOSE ARTIFLEX</span>
         <h2>
-          Designed to help your business <span>grow smarter</span>
+         We develop custom IT solutions <span>to your unique </span>
         </h2>
         <p>
-          Powerful tools, seamless workflows, and intelligent automation—
-          everything you need to scale your business efficiently.
+           business needs, ensuring efficiency, scalability, and security at every stage.
+           Our approach focuses on building reliable systems that support daily operations while preparing your business for future growth.
+
+By choosing Artiflex IT, you gain a dedicated technology partner committed to understanding your challenges and delivering solutions that truly fit.
+We design, manage, and protect your IT environment with precision helping you operate smoothly, reduce downtime, and stay secure in an evolving digital landscape
+
         </p>
       </div>
 
