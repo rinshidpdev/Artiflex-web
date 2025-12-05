@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <ArtiflexShowcase />
+      {/* <ArtiflexShowcase /> */}
       <TrustedBy />
       <FeatureSections />
       <WhyChoose/>
