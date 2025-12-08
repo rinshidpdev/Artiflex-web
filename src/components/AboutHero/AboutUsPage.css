@@ -3,14 +3,14 @@
   width: 100%;
   font-family: "Inter", "Poppins", sans-serif;
   color: #0b1225;
-  background-color: #fff;
+  background: none !important;
 }
 
 /* Feature Tag (Badge) */
 .feature-tag {
   display: inline-block;
   padding: 6px 14px;
-  background: #e8f0ff;
+  background: none !important;
   color: #2a57ff;
   border-radius: 20px;
   font-size: 13px;
@@ -38,7 +38,7 @@
 }
 
 .feature-card {
-  background: white;
+  /* background: white; */
   padding: 20px;
   border-radius: 22px;
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.05);
@@ -98,7 +98,8 @@
 .hero-section {
   width: 100%;
   min-height: 100vh;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
+   background-color: none !important;
   padding: 60px 20px;
 }
 
@@ -171,7 +172,7 @@
 
 /* Why Choose Us Section */
 .why-choose-section {
-  background-color: #f9fafb;
+  /* background-color: #f9fafb; */
   padding: 80px 8%;
 }
 
@@ -245,7 +246,7 @@
 
 /* Mission Section (Core Values) */
 .mission-section {
-  background-color: #f9fafb;
+  /* background-color: #f9fafb; */
   padding: 100px 8%;
   text-align: center;
 }
@@ -264,7 +265,8 @@
 }
 
 .value-card {
-  background: #fff;
+  /* background: #fff; */
+  background: none !important;
   padding: 40px 30px;
   border-radius: 22px;
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.05);
@@ -303,7 +305,7 @@
 
 /* Testimonials Section */
 .testimonials-section {
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 100px 8%;
 }
 
@@ -379,7 +381,7 @@
 
 /* FAQ Section */
 .faq-section {
-  background-color: #f9fafb;
+  /* background-color: #f9fafb; */
   padding: 100px 8%;
 }
 
@@ -391,7 +393,7 @@
 
 .faq-list {
   margin-top: 50px;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 22px;
   padding: 40px;
 }

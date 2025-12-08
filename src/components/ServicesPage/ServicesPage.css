@@ -94,14 +94,6 @@
   }
 }
 
-.gradient-text {
-  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 60%, #f093fb 100%); */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  position: relative;
-  display: inline-block;
-}
 
 .hero-description {
   font-size: 18px;

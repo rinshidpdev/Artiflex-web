@@ -181,7 +181,7 @@ const ContactPage = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="John Doe"
+                      placeholder="Name"
                       required
                     />
                   </div>
@@ -192,7 +192,7 @@ const ContactPage = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="john@company.com"
+                      placeholder="Email"
                       required
                     />
                   </div>
@@ -206,7 +206,7 @@ const ContactPage = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+971 55 808 6462"
+                      placeholder="Number"
                       required
                     />
                   </div>

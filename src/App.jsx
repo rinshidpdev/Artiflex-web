@@ -39,32 +39,34 @@ import Footer from "./components/Footer/Footer";
 import WhatsAppWidget from "./components/WhatsAppWidget";
 
 import Galaxy from './components/Galaxy'; 
+import AnimatedBackground from "./components/AnimatedBackground";
 
 
 function App() {
   return (
-    <div style={{ position: 'relative', minHeight: '100vh', width: '100%' }}>
-      {/* Galaxy Background */}
-      <Galaxy
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          zIndex: -1,
-        }}
-        transparent={true}
-        hueShift={180}
-        glowIntensity={0.4}
-        density={1.1}
-        speed={0.9}
-        mouseRepulsion={true}
-        twinkleIntensity={0.5}
-        rotationSpeed={0.08}
-      />
+    // <div style={{ position: 'relative', minHeight: '100vh', width: '100%' }}>
+    //   {/* Galaxy Background */}
+    //   <Galaxy
+    //     style={{
+    //       position: 'fixed',
+    //       top: 0,
+    //       left: 0,
+    //       width: '100%',
+    //       height: '100%',
+    //       zIndex: -1,
+    //     }}
+    //     transparent={true}
+    //     hueShift={180}
+    //     glowIntensity={0.4}
+    //     density={1.1}
+    //     speed={0.9}
+    //     mouseRepulsion={true}
+    //     twinkleIntensity={0.5}
+    //     rotationSpeed={0.08}
+    //   />
 
       <Router>
+        <AnimatedBackground />
         <WhatsAppWidget />
         <Navbar />
 
@@ -77,7 +79,7 @@ function App() {
 
         <Footer />
       </Router>
-    </div>
+    
   );
 }
 
