@@ -39,8 +39,7 @@ const Footer = () => {
               <li><a href="/about">About Us</a></li>
               <li><a href="/services">Our Services</a></li>
               <li><a href="/contact">Contact</a></li>
-              <li><a href="/careers">Careers</a></li>
-              <li><a href="/blog">Blog</a></li>
+              
             </ul>
           </div>
 
@@ -48,7 +47,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="footer-bottom">
-          <p className="copyright">© 2025 ArtFlex IT Solutions. All rights reserved.</p>
+          <p className="copyright">© 2025 ArtFlex IT. All rights reserved.</p>
 
           <div className="social-links">
             <a href="https://linkedin.com" className="social-link" aria-label="LinkedIn">

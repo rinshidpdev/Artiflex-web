@@ -47,23 +47,23 @@ const AboutUsPage = () => {
     {
       title: 'Exceeded Our Expectations',
       text: 'Artiflex IT transformed our outdated infrastructure into a modern, secure system. Their professionalism, attention to detail, and commitment to quality exceeded our expectations.',
-      author: 'John Smith',
+      author: ' Smith',
       role: 'CTO @Tech Innovations Ltd',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop',
+      // image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop',
     },
     {
       title: 'Delivered Beyond Expectations',
       text: 'Artiflex IT delivered a state-of-the-art cybersecurity solution that surpassed our expectations. Their proactive communication, innovative solutions, and dedication to excellence ensured a successful project.',
       author: 'Sarah Johnson',
-      role: 'Project Manager @ABC Corporation',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop',
+      role: 'Project Manager',
+      // image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop',
     },
     {
       title: 'Customized Solution Success',
       text: 'Artiflex IT optimized our cloud infrastructure and workflow efficiency. Their strategic planning, precise execution, and effective project management were instrumental in achieving our expansion goals.',
       author: 'Michael Chen',
-      role: 'Operations Manager @XYZ Manufacturing',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop',
+      role: 'Operations Manager ',
+      // image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop',
     },
   ];
 
@@ -230,7 +230,7 @@ const AboutUsPage = () => {
                 <h3 className="testimonial-title">{testimonial.title}</h3>
                 <p className="testimonial-text">{testimonial.text}</p>
                 <div className="testimonial-author">
-                  <img src={testimonial.image} alt={testimonial.author} />
+                  {/* <img src={testimonial.image} alt={testimonial.author} /> */}
                   <div className="author-info">
                     <div className="author-name">{testimonial.author}</div>
                     <div className="author-role">{testimonial.role}</div>
