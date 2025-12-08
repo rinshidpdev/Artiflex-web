@@ -37,7 +37,7 @@
 
 .feature-desc {
   margin-top: 20px;
-  color: #4a5772;
+ color: white !important;
   line-height: 1.6;
   font-size: 17px;
 }

@@ -130,13 +130,13 @@ const AboutUsPage = () => {
           <h2 className="feature-title">
             Trusted <span>IT Solutions</span> Provider
           </h2>
-          <p className="feature-desc">
+          <p className="featuree-desc">
             With over <strong>14 years of industry experience</strong>, we are a trusted IT Solutions provider operating under the esteemed <strong>Manchi Group</strong>.
           </p>
-          <p className="feature-desc">
+          <p className="featuree-desc">
             Our expertise spans over a wide range of technology services tailored to meet the evolving needs of business across sectors. Backed by a decade of innovation and client success, we have proudly earned <strong>multiple industry awards</strong> for excellence in service, reliability and innovation.
           </p>
-          <p className="feature-desc">
+          <p className="featuree-desc">
             At our core, we are committed to delivering <strong>smart, scalable and secure IT solutions</strong> that drive growth and digital transformation.
           </p>
         </div>
@@ -177,13 +177,13 @@ const AboutUsPage = () => {
           </h2>
           <div className="vision-mission-box">
             <h3 className="vm-title">Vision:</h3>
-            <p className="feature-desc">
+            <p className="feature-descri">
               To be the most trusted technology partner empowering organizations to thrive securely in the digital era through innovative, resilient, and sustainable IT solutions.
             </p>
           </div>
           <div className="vision-mission-box">
             <h3 className="vm-title">Mission:</h3>
-            <p className="feature-desc">
+            <p className="feature-descri">
               To deliver end-to-end IT solutions spanning cybersecurity, infrastructure, cloud, and managed services that enable businesses to operate efficiently, scale confidently, and stay protected in an evolving digital landscape.
             </p>
           </div>

@@ -73,9 +73,15 @@
 }
 
 /* Feature Description */
-.feature-desc {
+.featuree-desc {
   margin-top: 20px;
-  color: #4a5772;
+  color: white !important;
+  line-height: 1.6;
+  font-size: 17px;
+}
+.feature-descr {
+  margin-top: 20px;
+  color: black !important;
   line-height: 1.6;
   font-size: 17px;
 }
@@ -112,7 +118,7 @@
 .hero-title {
   font-size: clamp(2.2rem, 4.5vw, 3.5rem);
   font-weight: 700;
-  color: #0b1225;
+  color: white !important;
   line-height: 1.3;
   margin: 20px auto 50px;
   max-width: 900px;
@@ -293,14 +299,14 @@
 .value-title {
   font-size: 22px;
   font-weight: 700;
-  color: #0b1225;
+  color: black;
   margin-bottom: 15px;
 }
 
 .value-text {
   font-size: 15px;
   line-height: 1.7;
-  color: #4a5772;
+  color: white;
 }
 
 /* Testimonials Section */
