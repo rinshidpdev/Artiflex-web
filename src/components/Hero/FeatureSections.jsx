@@ -1,6 +1,6 @@
-import infraImg from "../../assets/image2.png";
-import cyberImg from "../../assets/image2.png";
-import cloudImg from "../../assets/image2.png";
+import infraImg from "../../assets/S.jpg";
+import cyberImg from "../../assets/C.jpg";
+import cloudImg from "../../assets/M.jpg";
 import "./FeatureSections.css";
 
 export default function FeatureSections() {

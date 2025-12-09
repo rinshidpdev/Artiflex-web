@@ -1,6 +1,6 @@
 import React from "react";
 import "./ArtiflexShowcase.css";
-import image from "../../assets/home.jpg";
+import image from "../../assets/HOMES.jpg";
 
 const ArtiflexShowcase = () => {
   return (
