@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -40,9 +40,11 @@ header {
 }
 
 .brand {
+  
   letter-spacing: -0.5px;
   font-weight: 400;
   color: #0b1225;
+  font-family: "Exo 2", sans-serif;
 }
 
 /* CENTER LINKS */
