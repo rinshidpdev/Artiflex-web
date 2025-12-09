@@ -48,9 +48,7 @@ export default function FeatureSections() {
 
             <p className="feature-desc">{sec.desc}</p>
 
-            <a href="#" className="feature-link">
-              {sec.link}
-            </a>
+           
           </div>
 
           {/* RIGHT SIDE */}

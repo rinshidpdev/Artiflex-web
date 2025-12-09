@@ -13,7 +13,7 @@ const Navbar = () => {
         {/*  Logo  */}
         <div className="nav-left">
           <img src={logo} alt="logo" className="nav-logo" />
-          <h2 className="brand">Artiflex</h2>
+          <h2 className="brand">Artiflex IT</h2>
         </div>
 
         {/* Hamburger (mobile only) */}

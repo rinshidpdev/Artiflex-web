@@ -1,19 +1,22 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* NAV WRAPPER */
-.nav {
-  width: 100%;
-
-  
+/* =============== NAVBAR WRAPPER =============== */
+header {
+  background: #ffffff;
   position: sticky;
   top: 0;
   z-index: 999;
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
 }
 
+
+/* CONTAINER */
 .nav-container {
   max-width: 1300px;
   margin: auto;
@@ -31,17 +34,15 @@
 }
 
 .nav-logo {
- 
-  width: 90px;   
+  width: 90px;
   height: auto;
   object-fit: contain;
 }
 
-
 .brand {
-  letter-spacing: -0.5px;   
+  letter-spacing: -0.5px;
   font-weight: 400;
-   color: #0b1225;
+  color: #0b1225;
 }
 
 /* CENTER LINKS */
@@ -53,7 +54,7 @@
 
 .nav-links li a {
   text-decoration: none;
-   color: #0b1225;
+  color: #0b1225;
   font-size: 17px;
   transition: 0.25s;
 }
@@ -78,33 +79,36 @@
   background: #2f68e8;
 }
 
-/* Hide mobile button on desktop */
+/* Hide mobile contact button on desktop */
 .mobile-btn {
   display: none;
 }
 
-/* HAMBURGER */
+/* Hamburger hidden on desktop */
 .hamburger-wrapper {
   display: none;
 }
 
-/* RESPONSIVE */
+/* =============== RESPONSIVE =============== */
+
+/* Tablet */
 @media (max-width: 992px) {
   .nav-right {
     display: none;
   }
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   /* Show hamburger */
   .hamburger-wrapper {
     display: block;
   }
 
-  /* Hide desktop nav links */
+  /* Mobile menu panel */
   .nav-links {
     position: fixed;
-    top: 70px;
+    top: 90px; /* same as navbar height */
     right: -100%;
     width: 70%;
     height: 100vh;
@@ -122,7 +126,7 @@
     right: 0;
   }
 
-  /* Show contact button inside menu */
+  /* Show mobile contact button */
   .mobile-btn {
     display: block;
     margin-top: 20px;
