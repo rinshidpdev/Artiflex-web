@@ -47,7 +47,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="footer-bottom">
-          <p className="copyright">© 2025 ArtFlex IT. All rights reserved.</p>
+          <p className="copyright">© 2025 Artiflex IT. All rights reserved.</p>
 
           <div className="social-links">
             <a href="https://linkedin.com" className="social-link" aria-label="LinkedIn">

@@ -38,8 +38,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import WhatsAppWidget from "./components/WhatsAppWidget";
 
-import Galaxy from './components/Galaxy'; 
-import AnimatedBackground from "./components/AnimatedBackground";
 
 
 function App() {
@@ -66,7 +64,7 @@ function App() {
     //   />
 
       <Router>
-        <AnimatedBackground />
+        
         <WhatsAppWidget />
         <Navbar />
 
