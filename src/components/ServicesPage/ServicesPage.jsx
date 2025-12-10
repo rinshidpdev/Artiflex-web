@@ -1,7 +1,9 @@
 import React from 'react';
 import './ServicesPage.css';
 import Galaxy from '../Galaxy';
-
+import cloud from '../../assets/K.jpg'
+import network from '../../assets/I.jpg'
+import cyber from '../../assets/CY.jpg'
 const ServicesPage = () => {
   const services = [
     {
@@ -9,7 +11,7 @@ const ServicesPage = () => {
       title: 'Cyber Security',
       tagline: 'Defending systems from evolving digital security threats',
       description: 'Cybersecurity is the practice of protecting computer systems, networks, and data from unauthorized access, attacks, or damage. It\'s crucial because it safeguards sensitive information, ensures business continuity, and maintains trust in an increasingly digital world. Without strong cybersecurity, organizations risk data breaches, financial loss, and reputational damage.',
-      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop',
+      image: cyber,
       solutions: [
         'Endpoint Protection',
         'Firewalls',
@@ -26,7 +28,7 @@ const ServicesPage = () => {
       title: 'Infrastructure Solutions',
       tagline: 'Optimizing network performance through secure infrastructure solutions',
       description: 'We provide comprehensive infrastructure solutions that form the backbone of your IT operations. From active network components to passive infrastructure, we ensure your technology foundation is robust, scalable, and future-ready for digital transformation.',
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop',
+      image: network,
       activeInfra: [
         'Access Points',
         'CCTV Cameras',
@@ -48,7 +50,7 @@ const ServicesPage = () => {
       title: 'Cloud Solutions',
       tagline: 'Innovative cloud solutions for agile, scalable businesses',
       description: 'Transform your business with cutting-edge cloud solutions that provide flexibility, scalability, and security. Our cloud services enable you to focus on growth while we handle the technical complexities of cloud infrastructure and migration.',
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop',
+      image: cloud,
       solutions: [
         'Cloud Infrastructure Deployment',
         'Migration Services',
