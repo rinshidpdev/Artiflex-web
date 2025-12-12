@@ -16,7 +16,7 @@ const Navbar = () => {
           <h2 className="brand">Artiflex IT</h2>
         </div>
 
-        {/* Hamburger (mobile only) */}
+        
         <div className="hamburger-wrapper">
           <HamburgerMenu
             isOpen={open}
@@ -31,18 +31,18 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Center Navigation Links */}
+      
         <ul className={open ? "nav-links open" : "nav-links"}>
           <li><a href="/" onClick={() => setOpen(false)}>Home</a></li>
           <li><a href="/about" onClick={() => setOpen(false)}>About</a></li>
           <li><a href="/services" onClick={() => setOpen(false)}>Services</a></li>
           <li><a href="/contact" onClick={() => setOpen(false)}>Contact Us</a></li>
 
-          {/* Mobile Contact Button inside menu */}
+          
           <button className="cta-btn mobile-btn">Contact</button>
         </ul>
 
-        {/* Desktop Contact Button */}
+       
         <div className="nav-right">
           <button className="cta-btn">Contact</button>
         </div>

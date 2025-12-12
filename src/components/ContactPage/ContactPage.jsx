@@ -157,7 +157,7 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Beautiful Form Section */}
+      {/*  Form Section */}
       <section className="form-main-section">
         <div className="form-section-wrapper">
           <div className="form-section-header">
